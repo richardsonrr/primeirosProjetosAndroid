@@ -2843,6 +2843,7 @@ int id progress_horizontal 0x7f08014e
 int id radio 0x7f08014f
 int id ratio 0x7f080150
 int id rectangles 0x7f080151
+int id recyclerView 0x7f0801df
 int id reverseSawtooth 0x7f080152
 int id right 0x7f080153
 int id rightToLeft 0x7f080154
