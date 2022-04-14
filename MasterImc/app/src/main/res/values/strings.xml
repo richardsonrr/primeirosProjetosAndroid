@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MasterImc</string>
+    <string name="calculadora_imc">Calculadora de IMC</string>
+    <string name="altura_em_cm">Altura em metros</string>
+    <string name="peso_em_kg">Peso em Kg</string>
+    <string name="calcular_imc">Calcular IMC</string>
+</resources>
