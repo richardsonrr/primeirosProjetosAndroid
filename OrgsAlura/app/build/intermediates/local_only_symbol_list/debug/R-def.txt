@@ -11,6 +11,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 id description
 id product
+id recyclerView
 id valor
 layout activity_main
 layout product_item
