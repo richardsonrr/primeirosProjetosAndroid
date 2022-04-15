@@ -19,7 +19,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Orgs" >
         <activity
-            android:name="br.com.rrdev.orgs.MainActivity"
+            android:name="br.com.rrdev.orgs.ui.activity.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
