@@ -30,8 +30,8 @@
 20-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:11:9-42
 21        <activity
 21-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:12:9-18:20
-22            android:name="br.com.rrdev.orgs.MainActivity"
-22-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:12:19-47
+22            android:name="br.com.rrdev.orgs.ui.activity.MainActivity"
+22-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:12:19-59
 23            android:exported="true" >
 23-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:13:13-36
 24            <intent-filter>
