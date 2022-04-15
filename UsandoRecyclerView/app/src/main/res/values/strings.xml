@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">UsandoRecyclerView</string>
+    <string name="foto">foto</string>
+    <string name="nome_da_musica">Nome da Musica</string>
+    <string name="autor_da_musica">Autor da musica</string>
+    <string name="melhores_do_blues">Melhores Do Blues</string>
 </resources>
