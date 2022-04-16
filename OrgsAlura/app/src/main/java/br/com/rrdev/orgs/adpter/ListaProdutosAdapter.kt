@@ -49,7 +49,9 @@ class ListaProdutosAdapter(
     }
 
     //vai determinar para o adpter quantos itens nos queremos apresentar dentro dele
-    override fun getItemCount(): Int = produtos.size
+    override fun getItemCount(): Int {
+        return produtos.size
+    }
 
 
 }
