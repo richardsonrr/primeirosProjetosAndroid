@@ -2679,6 +2679,9 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextDescricao
+id editTextProduto
+id editTextValor
 id edit_query
 id elastic
 id end
@@ -3088,6 +3091,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout formulario_de_cadastro
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3295,6 +3299,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string produto
 string salada_de_frutas
 string search_menu_title
 string status_bar_notification_info_overflow

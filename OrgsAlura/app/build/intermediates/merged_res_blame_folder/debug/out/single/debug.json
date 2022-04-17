@@ -60,6 +60,10 @@
         "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\build\\intermediates\\merged_res\\debug\\layout_formulario_de_cadastro.xml.flat",
+        "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\layout\\formulario_de_cadastro.xml"
+    },
+    {
         "merged": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\layout\\activity_main.xml"
     }

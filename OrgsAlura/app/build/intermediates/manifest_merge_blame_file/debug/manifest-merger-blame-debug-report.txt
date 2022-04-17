@@ -11,11 +11,11 @@
 9-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:5:5-19:19
+11-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:5:5-30:19
 12        android:allowBackup="true"
 12-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\Richardson\.gradle\caches\transforms-3\6bd06ca0e5f33590c68af0ab392d3a5d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\Richardson\.gradle\caches\transforms-3\0e7fd1b1e0c170391813c3bf966f678e\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:7:9-43
@@ -29,44 +29,61 @@
 20        android:theme="@style/Theme.Orgs" >
 20-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:11:9-42
 21        <activity
-21-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:12:9-18:20
-22            android:name="br.com.rrdev.orgs.ui.activity.MainActivity"
-22-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:12:19-59
+21-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:12:9-20:20
+22            android:name="br.com.rrdev.orgs.ui.activity.FormularioDeCadastroActivity"
+22-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:13:13-69
 23            android:exported="true" >
-23-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:13:13-36
+23-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:14:13-36
 24            <intent-filter>
-24-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:14:13-17:29
+24-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:15:13-19:29
 25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:15:17-68
-25-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:15:25-66
+25-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:16:17-69
+25-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:16:25-66
 26
 27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:16:17-76
-27-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:16:27-74
+27-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:18:17-77
+27-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:18:27-74
 28            </intent-filter>
 29        </activity>
-30
-31        <provider
-31-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\35d618e276a244b6acd766bb3988795b\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-32            android:name="androidx.startup.InitializationProvider"
-32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\35d618e276a244b6acd766bb3988795b\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-33            android:authorities="br.com.rrdev.orgs.androidx-startup"
-33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\35d618e276a244b6acd766bb3988795b\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-34            android:exported="false" >
-34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\35d618e276a244b6acd766bb3988795b\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-35            <meta-data
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\35d618e276a244b6acd766bb3988795b\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-36                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\35d618e276a244b6acd766bb3988795b\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-37                android:value="androidx.startup" />
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\35d618e276a244b6acd766bb3988795b\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-38            <meta-data
-38-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Richardson\.gradle\caches\transforms-3\7b1120f184329971544552363c0f114a\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-39                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Richardson\.gradle\caches\transforms-3\7b1120f184329971544552363c0f114a\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-40                android:value="androidx.startup" />
-40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Richardson\.gradle\caches\transforms-3\7b1120f184329971544552363c0f114a\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-41        </provider>
-42    </application>
-43
-44</manifest>
+30        <activity
+30-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:21:9-29:20
+31            android:name="br.com.rrdev.orgs.ui.activity.MainActivity"
+31-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:22:13-53
+32            android:exported="true" >
+32-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:23:13-36
+33            <intent-filter>
+33-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:15:13-19:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:16:17-69
+34-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:16:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:18:17-77
+36-->C:\Users\Richardson\ProjetosAndroid\OrgsAlura\app\src\main\AndroidManifest.xml:18:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+41            android:name="androidx.startup.InitializationProvider"
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+42            android:authorities="br.com.rrdev.orgs.androidx-startup"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+43            android:exported="false" >
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+44            <meta-data
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+46                android:value="androidx.startup" />
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Richardson\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+47            <meta-data
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Richardson\.gradle\caches\transforms-3\3e0b71932d1456f66d591f4bf123a15d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Richardson\.gradle\caches\transforms-3\3e0b71932d1456f66d591f4bf123a15d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+49                android:value="androidx.startup" />
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Richardson\.gradle\caches\transforms-3\3e0b71932d1456f66d591f4bf123a15d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+50        </provider>
+51    </application>
+52
+53</manifest>
