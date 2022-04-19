@@ -26,5 +26,4 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
 string produto
-string salada_de_frutas
 style Theme.Orgs
