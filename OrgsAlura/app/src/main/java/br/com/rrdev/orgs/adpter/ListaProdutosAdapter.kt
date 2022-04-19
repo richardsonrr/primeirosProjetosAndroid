@@ -17,6 +17,7 @@ class ListaProdutosAdapter(
     private val context: Context
 ) :
     RecyclerView.Adapter<ListaProdutosAdapter.ViewHolder>() {
+
     private val produtos = produtos.toMutableList()
 
     //devemos criar uma class ViewHolder() que é uma definição generica pra que possamos
@@ -24,10 +25,11 @@ class ListaProdutosAdapter(
     //ele recebe uma View
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         fun vincula(produto: Produtos) {
+
             val product = itemView.findViewById<TextView>(R.id.product)
             product.text = produto.nome
-            val descrição = itemView.findViewById<TextView>(R.id.description)
-            descrição.text = produto.descrição
+            val descricao = itemView.findViewById<TextView>(R.id.description)
+            descricao.text = produto.descrição
             val valor = itemView.findViewById<TextView>(R.id.valor)
             valor.text = produto.valor.toPlainString()
         }
