@@ -12,16 +12,15 @@ import br.com.rrdev.orgs.databinding.FormularioDeCadastroBinding
 import br.com.rrdev.orgs.model.Produtos
 import java.math.BigDecimal
 
-class FormularioDeCadastroActivity : AppCompatActivity(R.layout.formulario_de_cadastro) {
-    val binding = FormularioDeCadastroBinding.inflate(layoutInflater)
+class FormularioDeCadastroActivity : AppCompatActivity() {
+    private val binding by lazy{ FormularioDeCadastroBinding.inflate(layoutInflater) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
 
         super.onCreate(savedInstanceState)
         val buttonAdicionar = binding.buttonAdicionar
         configuraBotaoAdicionar(buttonAdicionar)
-
+        setContentView(binding.root)
 
     }
 
@@ -29,8 +28,8 @@ class FormularioDeCadastroActivity : AppCompatActivity(R.layout.formulario_de_ca
          val armazenador = ProdutosDao()
         buttonAdicionar.setOnClickListener {
             val novoProduto = binding.editTextProduto.text.toString()
-            val novaDescricao = findViewById<EditText>(R.id.editTextDescricao).text.toString()
-            val novoValor = findViewById<EditText>(R.id.editTextValor).text.toString()
+            val novaDescricao = binding.editTextDescricao.text.toString()
+            val novoValor = binding.editTextValor.text.toString()
 
             if (autenticador(novoProduto, novaDescricao, novoValor)) {
                 val produtoCriado = Produtos(novoProduto, novaDescricao, BigDecimal(novoValor))

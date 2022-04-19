@@ -48,12 +48,12 @@
         "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\build\\intermediates\\merged_res\\debug\\layout_product_item.xml.flat",
         "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\layout\\product_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -64,11 +64,11 @@
         "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\build\\intermediates\\merged_res\\debug\\layout_formulario_de_cadastro.xml.flat",
-        "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\layout\\formulario_de_cadastro.xml"
-    },
-    {
         "merged": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_action_add.xml.flat",
         "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\drawable\\ic_action_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\build\\intermediates\\merged_res\\debug\\layout_formulario_de_cadastro.xml.flat",
+        "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\layout\\formulario_de_cadastro.xml"
     }
 ]

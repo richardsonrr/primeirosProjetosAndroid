@@ -7,18 +7,28 @@ import androidx.recyclerview.widget.RecyclerView
 import br.com.rrdev.orgs.R
 import br.com.rrdev.orgs.adpter.ListaProdutosAdapter
 import br.com.rrdev.orgs.dados.ProdutosDao
+import br.com.rrdev.orgs.databinding.ActivityListaProdutosBinding
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
-class ListaProdutosActivity : AppCompatActivity(R.layout.activity_lista_produtos){
-    private val buscaTodos = ProdutosDao()
-    private val adapter =ListaProdutosAdapter(context = this, produtos = buscaTodos.buscaTodos())
+class ListaProdutosActivity : AppCompatActivity() {
 
+    private val binding by lazy {
+        ActivityListaProdutosBinding.inflate(layoutInflater)
+    }
+    private val buscaTodos by lazy { ProdutosDao() }
+    private val adapter by lazy {
+        ListaProdutosAdapter(
+            context = this,
+            produtos = buscaTodos.buscaTodos()
+        )
+    }
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         configuraRecyclerView()
         configuraFAB()
+        setContentView(binding.root)
 
     }
 
@@ -30,7 +40,7 @@ class ListaProdutosActivity : AppCompatActivity(R.layout.activity_lista_produtos
 
     private fun configuraFAB() {
         //implementação de floatingAction para adicionar produto
-        val floatAction = findViewById<FloatingActionButton>(R.id.floatingActionButton)
+        val floatAction = binding.floatingActionButton
 
         floatAction.setOnClickListener {
             //Dessa forma bindamos outra activity do nosso progama,
@@ -45,7 +55,7 @@ class ListaProdutosActivity : AppCompatActivity(R.layout.activity_lista_produtos
 
     private fun configuraRecyclerView() {
         //bidding do recycler
-        val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
+        val recyclerView = binding.recyclerView
         //implementação do adapter
         recyclerView.adapter = adapter
     }
