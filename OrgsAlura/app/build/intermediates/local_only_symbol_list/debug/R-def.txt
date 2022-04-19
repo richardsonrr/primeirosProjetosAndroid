@@ -19,7 +19,7 @@ id floatingActionButton
 id product
 id recyclerView
 id valor
-layout activity_main
+layout activity_lista_produtos
 layout formulario_de_cadastro
 layout product_item
 mipmap ic_launcher
