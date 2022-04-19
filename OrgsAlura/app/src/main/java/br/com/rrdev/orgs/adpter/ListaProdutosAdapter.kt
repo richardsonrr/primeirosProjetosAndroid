@@ -13,10 +13,11 @@ import br.com.rrdev.orgs.model.Produtos
 // essas 3 propriedades, vamos tentar entender cada uma
 
 class ListaProdutosAdapter(
-    private val produtos: List<Produtos>,
+    produtos: List<Produtos>,
     private val context: Context
 ) :
     RecyclerView.Adapter<ListaProdutosAdapter.ViewHolder>() {
+    private val produtos = produtos.toMutableList()
 
     //devemos criar uma class ViewHolder() que é uma definição generica pra que possamos
     //criar o nosso proprio
@@ -28,7 +29,8 @@ class ListaProdutosAdapter(
             val descrição = itemView.findViewById<TextView>(R.id.description)
             descrição.text = produto.descrição
             val valor = itemView.findViewById<TextView>(R.id.valor)
-            valor.text = produto.valor.toPlainString()        }
+            valor.text = produto.valor.toPlainString()
+        }
     }
 
 
@@ -51,6 +53,13 @@ class ListaProdutosAdapter(
     //vai determinar para o adpter quantos itens nos queremos apresentar dentro dele
     override fun getItemCount(): Int {
         return produtos.size
+    }
+
+    fun atualiza(produtos: List<Produtos>) {
+        this.produtos.clear()
+        this.produtos.addAll(produtos)
+        notifyDataSetChanged()
+
     }
 
 
