@@ -1,5 +1,9 @@
 R_DEF: Internal format may change without notice
 local
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 color black
 color purple_200
 color purple_500
@@ -10,12 +14,17 @@ color white
 drawable ic_action_add
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable produto_1
+font montserrat_alternates
+font montserrat_alternates_bold
+font montserrat_alternates_medium
 id buttonAdicionar
 id description
 id editTextDescricao
 id editTextProduto
 id editTextValor
 id floatingActionButton
+id imageView_product_item
 id product
 id recyclerView
 id valor
@@ -25,5 +34,6 @@ layout product_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string imagem_do_produto
 string produto
 style Theme.Orgs

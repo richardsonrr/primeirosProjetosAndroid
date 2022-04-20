@@ -1,14 +1,15 @@
 package br.com.rrdev.orgs.adpter
 
 import android.content.Context
+import android.icu.text.NumberFormat
+import android.os.Build
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
-import br.com.rrdev.orgs.R
 import br.com.rrdev.orgs.databinding.ProductItemBinding
 import br.com.rrdev.orgs.model.Produtos
+import java.util.*
 
 // tal class obrigatoriamente que é com base em uma abstract tem que sobrescrever
 // essas 3 propriedades, vamos tentar entender cada uma
@@ -26,6 +27,8 @@ class ListaProdutosAdapter(
     //ele recebe uma View
     class ViewHolder(private val binding: ProductItemBinding) : RecyclerView.ViewHolder(binding.root) {
 
+
+        @RequiresApi(Build.VERSION_CODES.N)
         fun vincula(produto: Produtos) {
 
             val product = binding.product
@@ -33,7 +36,8 @@ class ListaProdutosAdapter(
             val descricao = binding.description
             descricao.text = produto.descrição
             val valor = binding.valor
-            valor.text = produto.valor.toPlainString()
+            val formatador:NumberFormat = NumberFormat.getCurrencyInstance(Locale("pt", "br"))
+            valor.text =   formatador.format(produto.valor)
         }
     }
 
@@ -49,6 +53,8 @@ class ListaProdutosAdapter(
 
     //Vai indicar em qual momento dos itens do Recycler estamos e qual sua posição e oq queremos
     // fazer com essa informação
+
+    @RequiresApi(Build.VERSION_CODES.N)
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val produto = produtos[position]
         holder.vincula(produto)
