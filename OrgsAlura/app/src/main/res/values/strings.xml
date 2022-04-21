@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Orgs</string>
-    <string name="salada_de_frutas">Salada de frutas</string>
+    <string name="app_name">Lista de Produtos</string>
     <string name="produto">Produto:</string>
+    <string name="imagem_do_produto">imagem do produto</string>
 </resources>
