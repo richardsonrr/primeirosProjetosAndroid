@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity() {
                 resultA.text = imc(peso = peso.text.toString(), altura = altura.text.toString())
             } else {
                 resultA.text = "Preencha os campos de acordo com a descrição"
+
+
             }
 
         }
