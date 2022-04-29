@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DrinkmeJava</string>
+    <string name="notificar">NOTIFICAR</string>
+    <string name="intervalo_min">Intervalo(min)</string>
+</resources>
