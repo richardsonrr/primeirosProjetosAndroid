@@ -36,12 +36,12 @@
         "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\build\\intermediates\\merged_res\\debug\\layout_product_item.xml.flat",
-        "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\layout\\product_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\build\\intermediates\\merged_res\\debug\\layout_product_item.xml.flat",
+        "source": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\src\\main\\res\\layout\\product_item.xml"
     },
     {
         "merged": "C:\\Users\\Richardson\\ProjetosAndroid\\OrgsAlura\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",

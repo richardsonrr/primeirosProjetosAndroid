@@ -2709,7 +2709,7 @@ int id fitToContents 0x7f0a00bf
 int id fixed 0x7f0a00c0
 int id flip 0x7f0a00c1
 int id floating 0x7f0a00c2
-int id floatingActionButton 0x7f0a00c3
+int id floating_action_button 0x7f0a01e6
 int id forever 0x7f0a00c4
 int id fragment_container_view_tag 0x7f0a00c5
 int id frost 0x7f0a00c6
@@ -3306,6 +3306,7 @@ int string mtrl_picker_toggle_to_day_selection 0x7f11007a
 int string mtrl_picker_toggle_to_text_input_mode 0x7f11007b
 int string mtrl_picker_toggle_to_year_selection 0x7f11007c
 int string mtrl_timepicker_confirm 0x7f11007d
+int string novo_produto 0x7f110086
 int string password_toggle_content_description 0x7f11007e
 int string path_password_eye 0x7f11007f
 int string path_password_eye_mask_strike_through 0x7f110080
