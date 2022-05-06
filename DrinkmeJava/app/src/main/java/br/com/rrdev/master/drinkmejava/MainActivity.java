@@ -1,21 +1,30 @@
 package br.com.rrdev.master.drinkmejava;
 
+<<<<<<< HEAD
 import android.content.Context;
 import android.content.SharedPreferences;
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+>>>>>>> d8da4477775c9157c2e52f07ec2a023d5209a183
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TimePicker;
+<<<<<<< HEAD
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+=======
+>>>>>>> d8da4477775c9157c2e52f07ec2a023d5209a183
 
 import br.com.rrdev.master.drinkmejava.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
+<<<<<<< HEAD
     private SharedPreferences preferences;
     private ActivityMainBinding binding;
     private EditText editText;
@@ -25,21 +34,37 @@ public class MainActivity extends AppCompatActivity {
     private int min;
     private int interval;
     boolean press = false;
+=======
+    private ActivityMainBinding binding;
+    private Button btnNotify;
+    private EditText editText;
+    private TimePicker setTimerPicker;
+    private int hour;
+    private int min;
+    private int interval;
+>>>>>>> d8da4477775c9157c2e52f07ec2a023d5209a183
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> d8da4477775c9157c2e52f07ec2a023d5209a183
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
+<<<<<<< HEAD
 
         preferences = getSharedPreferences("db", Context.MODE_PRIVATE);
+=======
+>>>>>>> d8da4477775c9157c2e52f07ec2a023d5209a183
         btnNotify = binding.btnNotificar;
         editText = binding.editTextInterval;
         setTimerPicker = binding.timePicker;
 
+<<<<<<< HEAD
         setTimerPicker.setIs24HourView(true);
         btnNotify.setOnClickListener(userClicker);
 
@@ -62,6 +87,13 @@ public class MainActivity extends AppCompatActivity {
             btnNotify.setText(getText(R.string.notificar));
 
         }
+=======
+
+
+
+        setTimerPicker.setIs24HourView(true);
+        btnNotify.setOnClickListener(userClicker);
+>>>>>>> d8da4477775c9157c2e52f07ec2a023d5209a183
 
         //Receber click no java temos 3 formas, no xml e criando o function
         //e outras 2 que vou mostrar aqui.
@@ -74,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
             hour = setTimerPicker.getHour();
             min = setTimerPicker.getMinute();
+<<<<<<< HEAD
             checkingInEditText();
 
 
@@ -132,5 +165,14 @@ public class MainActivity extends AppCompatActivity {
         btnNotify.setText(getText(R.string.notificar));
         press = false;
     }
+=======
+            interval = Integer.parseInt(editText.getText().toString());
+
+
+            Log.d("buttonNotify", "Horas: " +  hour + " Minutos: " + min + " Intervelo: " + interval);
+
+        }
+    };
+>>>>>>> d8da4477775c9157c2e52f07ec2a023d5209a183
 
 }
