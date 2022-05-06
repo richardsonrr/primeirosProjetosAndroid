@@ -23,7 +23,7 @@ id description
 id editTextDescricao
 id editTextProduto
 id editTextValor
-id floatingActionButton
+id floating_action_button
 id imageView_product_item
 id product
 id recyclerView
@@ -35,5 +35,6 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
 string imagem_do_produto
+string novo_produto
 string produto
 style Theme.Orgs

@@ -28,6 +28,7 @@
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Lista de Produtos</string>
     <string name="imagem_do_produto">imagem do produto</string>
+    <string name="novo_produto">Novo produto</string>
     <string name="produto">Produto:</string>
     <style name="Theme.Orgs" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         

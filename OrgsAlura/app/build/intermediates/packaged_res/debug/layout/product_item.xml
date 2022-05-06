@@ -56,7 +56,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="16dp"
             android:fontFamily="@font/montserrat_alternates_medium"
-            android:textColor="#4CAF50"
+            android:textColor="#43A047"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -65,17 +65,27 @@
             app:layout_constraintTop_toBottomOf="@+id/description"
             tools:text="35,00" />
 
+        <!--        <androidx.constraintlayout.widget.Guideline-->
+        <!--            android:id="@+id/guideline"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            app:layout_constraintGuide_percent="0.3"-->
+        <!--            android:orientation="vertical"-->
+        <!--            />-->
+
+
         <ImageView
             android:id="@+id/imageView_product_item"
-            android:layout_width="110dp"
-            android:layout_height="125dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:contentDescription="@string/imagem_do_produto"
-            android:scaleType="fitXY"
+            android:scaleType="centerCrop"
             android:src="@drawable/produto_1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/product"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.3" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

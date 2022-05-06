@@ -43,6 +43,7 @@ class ListaProdutosActivity : AppCompatActivity() {
         val floatAction = binding.floatingActionButton
 
         floatAction.setOnClickListener {
+
             //Dessa forma bindamos outra activity do nosso progama,
             // usando Intent(Recebe context, e a activity + ::class.java)
             val intentFormulario = Intent(this, FormularioDeCadastroActivity::class.java)

@@ -2,4 +2,8 @@
     <string name="app_name">DrinkmeJava</string>
     <string name="notificar">NOTIFICAR</string>
     <string name="intervalo_min">Intervalo(min)</string>
+<<<<<<< HEAD
+    <string name="pause">Pausar</string>
+=======
+>>>>>>> d8da4477775c9157c2e52f07ec2a023d5209a183
 </resources>
