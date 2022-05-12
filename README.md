@@ -21,8 +21,8 @@ Uma calculadora de indice de massa corporal simples.
  Mostra uma lista com as melhores musicas do blues que ao clickar redireciona para a musica no youtube.</p><br/> 
 <p>Criado usando primeiros estudos sobre RecyclerView e CardView.</p>
 
+[video-funcionamento](https://user-images.githubusercontent.com/71666036/168094305-35644f0f-515b-481a-8109-5141f7bc09d5.mp4)
 
-https://user-images.githubusercontent.com/71666036/168094305-35644f0f-515b-481a-8109-5141f7bc09d5.mp4
 
 
 ##
